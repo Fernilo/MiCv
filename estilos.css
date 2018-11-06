@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: #4f4d4c;
+ 
+}
+.cabeza{
+	background:  #e77c62;
+	padding: 40px;
+	margin-top: 10px;
+
+}
+.cabeza h1{
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.cabeza h2{
+	margin-top: 10px;
+	color:  #935116;
+	font-size: 20px;
+
+}
+
+.enlaces{
+	
+	width: 100%;
+	position: absolute;
+	top:50%;
+	background:  #27ae60 ;
+	text-align: center;
+
+}
+.enlaces ul{
+	list-style: none;
+	overflow: hidden;
+}
+.enlaces ul li{
+	float:left;/* evita a la fuerza el flujo natural de las cajas*/
+	width: 25%;
+
+}
+.enlaces ul li a{
+	display: block;/*elemento pasa a ser un bloque*/
+	padding: 30px;
+	text-decoration: none;
+	font-size: 30px;
+	transition: all 0.5s ease 0.1s;
+}
+.enlaces ul li a:hover{
+	background: #2980b9;
+	
+	
+}
+.pie{
+	display: block;
+	height: 60px;
+	width: 100%;
+	background:  #e77c62;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+}
+.cabeza-datos{
+	background: #e77c62;
+	height: 100px;
+	margin: 20px 0;
+	padding: 30px;
+
+	
+}
+.cabeza-datos h1{
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	width: 65%;
+}
+.cabeza-datos a{
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+	background-color: #1883ba;
+	border-radius: 6px;
+	border:2px solid ;
+}
+.cabeza-datos a:hover{
+	color:#1883ba;
+	background-color: #fff;
+}
+.tabla{
+	margin:150px auto;
+	width: 600px;
+}
+table{
+	width: 100%;
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+}
+th,td{
+	
+	padding: 20px;
+}
+thead{
+	background-color: #246355;
+	color: white;
+	border-bottom: solid 5px #0f362d;
+}
+tr:nth-child(even){/*selecciona los hijos par*/
+	background-color: #ddd;
+}
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
